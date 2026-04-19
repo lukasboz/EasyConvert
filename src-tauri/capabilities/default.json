@@ -1,0 +1,17 @@
+{
+  "$schema": "https://tauri.app/schema/capability.schema.json",
+  "identifier": "default",
+  "description": "Default permissions for EasyConvert",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:default",
+    "core:event:default",
+    "core:window:allow-start-dragging",
+    "shell:allow-execute",
+    "shell:allow-open",
+    "dialog:allow-open",
+    "dialog:allow-save",
+    "dialog:default"
+  ]
+}
